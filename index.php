@@ -1,19 +1,18 @@
+<?php
+//fonction qui renvoie true
+function returnTrue(){
+  return true;
+}
+?>
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8" />
-  <title>Exercice1</title>
+  <title>Exercice 1</title>
 </head>
 <body>
   <p>
-    <?php
-    //La fonction true retourne la valeur true
-    function true() {
-      return true;
-    }
-    //on affiche la valeur true
-    echo true();
-    ?>
+    <?= returnTrue(); //ecrit le retour de fonction ?>
   </p>
 </body>
 </html>
